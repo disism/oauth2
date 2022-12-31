@@ -1,0 +1,21 @@
+---
+name: "disism oauth2"
+domain: "oauth2.disism.com"
+
+db:
+  host: "127.0.0.1"
+  port: "26257"
+  user: "root"
+  password: "root"
+  database: "oauth2"
+  ssl: "disable"
+  timezone: "Asia/Shanghai"
+
+authentication:
+  token:
+    secret: "disism.com_oauth"
+    expired: 16
+
+redis:
+  addr: "127.0.0.1:6379"
+  password: "hvxahv123"
